@@ -1,0 +1,246 @@
+@media only screen and (min-width:300px) and (max-width:1180px)
+{
+    .navbar-nav {
+        align-items: initial;
+    }
+      .mobile-none
+      {
+          display: none;
+      }
+      .price-style::after
+      {
+          bottom: 9px;
+      }
+      .text-smc-center
+      {
+        text-align: center !important;
+      }
+      .px-sm-4
+      {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+      h1,h2.headm {
+        font-size: 22px!important;
+    }
+    h2 {
+        font-size: 17px!important;
+    }
+    .portfolio-info h3 {
+        font-size: 22px;
+    }
+    .main-menu li a {
+        padding: 6px 1.5em;
+    }
+    .proposal {      
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (min-width:300px) and (max-width:600px)
+{
+    .offer .col-lg-4,.why-go .col-md-4 { 
+        max-width:100%!important;
+        margin-left: 1rem!important;
+        margin-right: 1rem!important;
+    }
+    .logo {
+        max-width: 244px !important;
+    }
+    
+    .py-sec
+    {
+        padding-top: 1.6rem;
+        padding-bottom: 1rem;
+    }
+    .modal-header 
+    {
+        padding: 1rem 11px !important;
+    }
+    .home-banner .banner-img img
+{
+  height:auto;
+}
+    .portfolio .card svg
+    {
+        top: 16rem !important;
+    }
+    .accordion__button {        
+        font-size: 13px;
+    }
+   
+    .home-blog-section .blog-info .blog-content .blog-title h3 {
+        font-size: 20px;
+    }
+    .portfolio h3
+    {
+        font-size:24px;
+    padding-top: 24px;
+    }
+    .list-style-none
+    {
+        list-style: none;
+    }
+    .btn-s
+    {
+        margin-bottom: 1em;
+    }
+    .home-blog-section .col-md-4
+    {
+margin-top: 2em;
+    }
+    .xs-column-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+   .text-xs-center
+   {
+    text-align: center!important;
+   }
+   .cont-s
+   {
+    margin-top: 3em;
+   }
+   .profile-text {
+    font-size: 16px;
+   }
+    .copyr
+    {
+    font-size: 12px !important;
+    }
+    .normal h6 {
+        font-size: 16px;
+    }
+    .stiky {
+        padding: 40px 0px;
+    }
+    .short-desc {       
+        font-size: 13px;
+    }
+    .bg-img-hm
+    {
+        background-image: none;
+    }
+    .web-page .container
+    {
+        padding-left: 12px!important;
+        padding-right: 12px!important;
+    }
+    .other .col-lg-3 {
+      max-width: 100%;
+    }
+   
+    .mx-smc-2
+    {
+        margin-left: 1rem!important;
+        margin-right: 1rem!important;
+    }
+    .btnc {
+        padding: 8px 39px!important;
+    }
+    .banner-content .banner-title .hms  {
+        font-size: 26px !important;      
+        line-height: 32px;   
+       
+}
+.banner-content .banner-disc p {   
+    margin-bottom: 12px;
+    padding-right: 6px;
+    font-size: 14px;
+}
+.banner-title h5 {
+    font-size: 14px;
+
+} 
+.content-section {  
+    padding-left: 3px;
+}
+.sidebar-content
+{
+    background-position-y: 0px;
+    height: 38vh;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.sidebar-section {
+border:none;
+}
+.carousel-indicators
+{
+    bottom: -1em!important;
+}
+.carousel-item
+{
+    padding-bottom: 2em;
+}
+.my-smc-3
+{
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;    
+}
+section.home-banner {
+    height: 84vh;
+}
+.typing-demo .hms:nth-child(1) {
+
+    width: 370px;
+}
+.typing-demo .hms:nth-child(2) {
+
+    width: 358px;
+}
+.sub-menu
+{
+    left: -12px;
+    width: 24em;
+}
+}
+@media only screen and (min-width:650px) and (max-width:1180px)
+{
+    .other .col-md-6,.offer .col-lg-4 {
+       
+        max-width:48% !important;
+    }
+    .why-go .col-md-4 {
+        max-width: 30%;
+
+    }
+    .other .ml-mdc-0
+    {
+      margin-left: 0px!important;
+    }
+    .xs-t-column-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    .col-md-6
+    {
+        max-width: 48% !important;
+    }
+    .ml-mdc-2
+    {
+        margin-left: 0.5rem!important;
+    }
+}
+
+
+@media only screen and (min-width:1180px) and (max-width:2400px)
+{
+
+.container
+{
+    padding-left: 0px!important;
+    padding-right: 0px !important;
+}
+}
+
+/* @media only screen and (min-width:1500px) and (max-width:2400px)
+{
+
+    .home-banner .container
+{
+    max-width: 90%!important;
+}
+} */
